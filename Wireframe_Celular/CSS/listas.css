@@ -1,0 +1,97 @@
+.container-task {
+    position: absolute;
+    margin-top: 40px;
+    left: 50px;
+    width: 345px;
+    max-height: 600px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.tareas-en-lista {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: left;
+    font-size: 12px;
+}
+
+.trash-icon {
+    position: flex;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ECE3E3; 
+    background-color: #ECE3E3;
+    border-radius: 6px; 
+    padding: 2px;
+}
+
+.vector-icon {
+    position: flex;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ECE3E3;
+    background-color: #ECE3E3;
+    border-radius: 6px; 
+    padding: 2px; 
+}
+
+.Iconos{
+    position: absolute;
+    right: 10px;
+    display: flex;
+
+}
+
+/* Estilo del modal */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

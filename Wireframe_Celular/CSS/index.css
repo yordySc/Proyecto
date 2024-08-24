@@ -1,0 +1,29 @@
+.name-container {
+    position: absolute;
+    top: 378px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 80px;
+    font-family: Monofett;
+    color: #9b1111;
+    text-align: center;
+    display: inline-block; 
+    width: 399px;
+    height: 167px;
+}
+
+.appName {
+    margin: 0;
+    white-space: pre-wrap;
+    text-align: center; 
+}
+
+.logo {
+    position: absolute;
+    top: 31px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 471px;
+    height: 360px;
+    object-fit: cover;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	<link rel="stylesheet" href="./CSS/global.css" />
+  	<link rel="stylesheet"  href="./CSS/User.css" />
+	  <link rel="preconnect" href="https://fonts.googleapis.com" />
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	  <link
+		href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+		rel="stylesheet"
+	  />  	
+  	
+</head>
+<body>
+  	
+	<div class="margin">
+		  <div class="mobile">
+			<img class="textures" alt="" src="images/texture.png" />
+
+				<div class="formbox">
+					  <div class="user-title">Iniciar Sesión</div>
+					  <div class="signupbuttons">
+							<div class="signupwaybutton">
+								  <div class="buttonText">Inicia sesión con Google</div>
+								  <img class="icon" alt="" src="Images/logoGoogle.png">
+								  
+							</div>
+							<div class="signupwaybutton">
+								  <div class="buttonText">Inicia sesión con Facebook</div>
+								  <img class="icon" alt="" src="Images/logoFacebook.png">
+								  
+							</div>
+					  </div>
+
+					  <div class="ordivider">
+							<div class="border">
+							</div>
+							<div class="o">O</div>
+							<div class="border">
+							</div>
+					  </div>
+
+					  <form id="login-form" class="forms" method="POST">
+						<div class="input">
+							<label class="o" for="email">Email</label>
+							<input type="text" class="input-text" id="email" name="email" placeholder="Introduzca el email">
+						</div>
+						<div class="input">
+							<label class="o" for="password">Contraseña</label>
+							<input type="password" class="input-text" id="password" name="password" placeholder="Introduzca contraseña">
+						</div>
+						<div>
+							<button type="submit" class="button">Iniciar Sesión</button>
+						</div>
+					</form>
+
+					  <div class="button-message">
+							<span>¿No tienes una cuenta? </span>
+							<a href="createUser.html"class="link">Crea Una</a>
+					  </div>
+					  <div class="register-message">
+						<span id="message"></span>
+					</div>
+
+				</div>
+
+				<div class="copyright">© 2024  Todos los derechos reservados</div>
+				<img class="image-1-icon" alt="" src="images/logo.png">
+				
+		  </div>
+	</div>
+	
+	
+	<script>
+		const loginForm = document.getElementById('login-form');
+		const message = document.getElementById('message');
+	
+		loginForm.addEventListener('submit', (e) => {
+		  e.preventDefault();
+	
+		  const email = document.getElementById('email').value;
+		  const password = document.getElementById('password').value;
+
+		  if (email === '' || password === '') {
+			message.textContent = 'Por favor, complete todos los campos.';
+			return; 
+		  }
+	
+		  let accounts = JSON.parse(localStorage.getItem('accounts')) || [];
+	
+		  const account = accounts.find(account => account.email === email && account.password === password);
+	
+		  if (account) {
+			localStorage.setItem('currentUser', email);
+			window.location.href = 'home.html';
+		  } else {
+			message.textContent = 'Nombre de usuario o contraseña incorrectos.';
+		  }
+	
+		  loginForm.reset();
+		});
+	</script>
+
+</body>
+</html>

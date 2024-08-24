@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<link rel="stylesheet" href="./CSS/global.css" />
+  	<link rel="stylesheet"  href="./CSS/addEvent.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+        rel="stylesheet"/>  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="margin">
+    		<div class="mobile">	
+      			<img class="textures" alt="" src="images/texture.png">
+      			
+                  <div class="section-options">
+                    <div class="option-with-title">
+                        <p>Volver</p>
+                        <img src="images/iconBack.png" alt="Volver" />
+                    </div>
+                    <div class="page-title">Nueva Tarea</div>
+                    <div class="option-with-title">
+                        <p>Evento</p>
+                        <img src="images/iconAddEvent.png" alt="Añadir Lista" />
+                    </div>
+                  </div>
+
+                  <form class="forms" action="rutaparaevento.js" method="POST">
+                    <div class="input">
+                      <label class="form-text" for="event">¿Qué hay que hacer?</label>
+                      <input type="text" class="input-text" id="event" name="event" placeholder="Nombre del evento">
+                    </div>
+                    <div class="input">
+                      <label class="form-text" for="date">¿Fecha Límite?</label>
+                      <input type="date" class="input-text" id="date" name="date" placeholder="Fecha sin fijar">
+                      <input type="date" class="input-text" id="start-hour" name="start-hour" placeholder="Hora de inicio de evento">
+                      <input type="date" class="input-text" id="end-hour" name="end-hour" placeholder="Hora de fin de evento">
+                    </div>
+                    <div class="input">
+                        <label class="form-text" for="task">Agregar Nota</label>
+                        <input type="text" class="input-text" id="note" name="note" placeholder="Introduzca nota">
+                      </div>
+                    <div>
+                      <button type="submit" class="button">Añadir Evento</button>
+                    </div>
+                  </form>
+
+                
+      			
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+</body>
+</html>

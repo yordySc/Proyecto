@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<link rel="stylesheet" href="./CSS/global.css" />
+  	<link rel="stylesheet"  href="./CSS/addTask.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+        rel="stylesheet"/>  	
+</head>
+<body>
+  	<div class="margin">
+    		<div class="mobile">	
+      			<img class="textures" alt="" src="images/texture.png">
+                  <div class="section-options">
+                    <div class="option-with-title">
+                        <p>Volver</p>
+                        <a href="home.html">                        
+                          <img src="images/iconBack.png" alt="Volver" />
+                        </a>
+                    </div>
+                    <div class="page-title">Nueva Tarea</div>
+                    <div class="option-with-title">
+                        <p>Evento</p>
+                        <a href="addEvent.html">                        
+                          <img src="images/iconAddEvent.png" alt="Añadir Lista" />
+                        </a>
+                    </div>
+                  </div>
+                  <form id="add-task" class="forms" method="POST">
+                    <div class="input">
+                      <label class="form-text" for="task">¿Qué hay que hacer?</label>
+                      <input type="text" class="input-text" id="task" name="task" placeholder="Introduzca tarea">
+                    </div>
+                    <div class="input">
+                      <label class="form-text" for="date">¿Fecha Límite?</label>
+                      <input type="date" class="input-text" id="date" name="date" placeholder="Fecha sin fijar">
+                      <input type="time" class="input-text" id="hour" name="hour" placeholder="Hora sin fijar">
+                    </div>
+                    <div class="input">
+                      <label class="form-text" for="listName">Añadir a la lista</label>
+                      <select id="listName" name="listName" class="input-text">
+                        <option value="" disabled selected>Selecciona una lista</option>
+                        <!-- Las opciones de listas se llenarán dinámicamente -->
+                      </select>
+                    </div>
+                    <div>
+                      <button type="submit" class="button">Añadir Tarea</button>
+                    </div>
+                  </form>
+    		</div>
+  	</div>
+
+  	<script>
+      // Llenar el select con las listas disponibles y añadir tarea
+      document.addEventListener('DOMContentLoaded', () => {
+        const taskForm = document.getElementById('add-task');
+        const currentUser = localStorage.getItem('currentUser');
+        const listNameSelect = document.getElementById('listName');
+
+        if (currentUser) {
+          const userLists = JSON.parse(localStorage.getItem(currentUser)) || [];
+
+          // Rellenar el select con las listas del currentUser
+          userLists.forEach(list => {
+            const option = document.createElement('option');
+            option.value = list.name;
+            option.textContent = list.name;
+            listNameSelect.appendChild(option);
+          });
+        } else {
+          const option = document.createElement('option');
+          option.value = "";
+          option.textContent = "No hay listas disponibles";
+          option.disabled = true;
+          listNameSelect.appendChild(option);
+        }
+
+        // Manejar la adición de la tarea usando el ID del formulario
+        taskForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+
+          const taskName = document.getElementById('task').value.trim();
+          const taskDate = document.getElementById('date').value;
+          const taskHour = document.getElementById('hour').value;
+          const selectedListName = listNameSelect.value;
+
+          if (!taskName || !taskDate || !taskHour || !selectedListName) {
+            alert('Por favor, complete todos los campos antes de añadir la tarea.');
+            return;
+          }
+
+          if (currentUser) {
+            let userLists = JSON.parse(localStorage.getItem(currentUser)) || [];
+            const listIndex = userLists.findIndex(list => list.name === selectedListName);
+
+            if (listIndex !== -1) {
+              const selectedList = userLists[listIndex];
+
+              // Verificar si la lista tiene un array 'tasks', si no, inicializarlo
+              if (!selectedList.tasks) {
+                selectedList.tasks = [];
+              }
+
+              const newTask = {
+                name: taskName,
+                date: taskDate,
+                hour: taskHour
+              };
+
+              // Añadir la nueva tarea a la lista seleccionada
+              selectedList.tasks.push(newTask);
+
+              // Incrementar la cantidad de tareas
+              selectedList.quantity = (selectedList.quantity || 0) + 1;
+
+              // Guardar las listas actualizadas en localStorage
+              localStorage.setItem(currentUser, JSON.stringify(userLists));
+
+              alert('Tarea añadida correctamente a la lista.');
+              
+              // Reiniciar el formulario
+              taskForm.reset();
+            } else {
+              alert('La lista seleccionada no existe.');
+            }
+          }
+        });
+      });
+    </script>
+</body>
+</html>

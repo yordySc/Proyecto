@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	<link rel="stylesheet" href="./CSS/global.css" />
+    <link rel="stylesheet" href="./CSS/listas.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <div class="margin">
+    <div class="mobile">
+      <img class="textures" alt="" src="images/texture.png">
+
+      <div class="section-options">
+        <div class="option-with-title">
+          <a href="home.html">
+          <img src="images/iconBack.png" alt="Volver" />
+        </a>
+        </div>
+        <div class="page-title">Listas de Tareas</div>
+        <div class="option-with-title">
+          <img id="add-list-btn" src="images/addList.png" alt="Añadir Lista" />
+        </div>
+      </div>
+
+      <div class="container-task">
+        <ul class="task-list">
+          <!-- Aquí se mostrarán las listas -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="add-list-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Añadir Nueva Lista</h2>
+      <input type="text" id="list-name-input" placeholder="Nombre de la lista">
+      <button id="add-list-submit">Añadir</button>
+    </div>
+  </div>
+
+  <script>
+    // Obtener elementos
+    const addListBtn = document.getElementById('add-list-btn');
+    const modal = document.getElementById('add-list-modal');
+    const closeButton = document.querySelector('.close-button');
+    const addListSubmit = document.getElementById('add-list-submit');
+    const listNameInput = document.getElementById('list-name-input');
+
+    // Abrir modal
+    addListBtn.addEventListener('click', () => {
+      modal.style.display = 'block';
+    });
+
+    // Cerrar modal al hacer clic en la "x"
+    closeButton.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+
+    // Cerrar modal al hacer clic fuera de él
+    window.addEventListener('click', (event) => {
+      if (event.target == modal) {
+        modal.style.display = 'none';
+      }
+    });
+
+    
+    // Guardar lista y cerrar modal
+    addListSubmit.addEventListener('click', () => {
+      const listName = listNameInput.value.trim();
+      
+      if (listName) {
+          const currentUser = localStorage.getItem('currentUser');
+          
+          if (currentUser) {
+              let userLists = JSON.parse(localStorage.getItem(currentUser)) || [];
+              
+              // Verificar si la lista ya existe
+              const listExists = userLists.some(list => list.name.toLowerCase() === listName.toLowerCase());
+              
+              if (listExists) {
+                  alert('Esta lista ya existe. Por favor, elija otro nombre.');
+              } else {
+                  // Crear una nueva lista con quantity inicializado a 0
+                  const newList = { name: listName, quantity: 0 };
+                  userLists.push(newList);
+                  localStorage.setItem(currentUser, JSON.stringify(userLists));
+                  
+                  modal.style.display = 'none';  // Cerrar el modal
+                  listNameInput.value = '';      // Limpiar el campo de entrada
+                  location.reload();
+              }
+          }
+      } else {
+          alert('Por favor, ingrese un nombre de lista.');
+      }
+  });
+      
+  // Mostrar las listas en la página
+document.addEventListener('DOMContentLoaded', () => {
+  const currentUser = localStorage.getItem('currentUser');
+  const taskListContainer = document.querySelector('.task-list');
+
+  if (currentUser) {
+      let userLists = JSON.parse(localStorage.getItem(currentUser)) || [];
+
+      userLists.forEach(list => {
+          const listItem = document.createElement('li');
+          listItem.className = 'task-item';
+          listItem.innerHTML = `
+              <div>
+                  <div class="tareas-en-lista">${list.name}</div>
+                  <div class="tareas-en-lista">${list.quantity === 0 ? 'No hay tareas en la lista' : `Tareas en lista: ${list.quantity}`}</div>
+              </div>
+              <div class="Iconos">
+                  <img class="vector-icon" alt="" src="images/pencil.png">
+                  <img class="trash-icon" alt="" src="images/trash.png">
+              </div>
+          `;
+          taskListContainer.appendChild(listItem);
+      });
+  }
+});
+  </script>
+</body>
+</html>
