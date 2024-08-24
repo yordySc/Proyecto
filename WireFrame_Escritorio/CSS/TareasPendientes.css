@@ -1,0 +1,736 @@
+.texture-icon {
+    position: absolute;
+    height: 17.66%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 82.34%;
+    left: 0%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    z-index: 1;
+}
+.component-22 {
+    position: absolute;
+    height: 9.01%;
+    width: 77.35%;
+    top: 2.69%;
+    right: 13.74%;
+    bottom: 88.3%;
+    left: 8.91%;
+}
+.component-23-child {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 77.3%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.component-23-item {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 37.5%;
+    bottom: 0%;
+    left: 39.8%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.component-23-inner {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 0%;
+    bottom: 0%;
+    left: 77.3%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.listas {
+    position: absolute;
+    top: 0%;
+    left: 4.28%;
+}
+.config {
+    position: absolute;
+    top: 0%;
+    left: 80.26%;
+}
+.grupos {
+    position: absolute;
+    top: 0%;
+    left: 42.76%;
+}
+.component-23 {
+    position: absolute;
+    height: 9.01%;
+    width: 77.35%;
+    top: 2.69%;
+    right: 12.21%;
+    bottom: 88.3%;
+    left: 10.43%;
+}
+.notebook-fill-icon {
+    position: absolute;
+    height: 6.2%;
+    width: 12.47%;
+    top: 4.91%;
+    right: 75.06%;
+    bottom: 88.89%;
+    left: 12.47%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.user-duotone-icon {
+    position: absolute;
+    height: 5.61%;
+    width: 10.43%;
+    top: 5.5%;
+    right: 47.84%;
+    bottom: 88.89%;
+    left: 41.73%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.user-duotone-icon1 {
+    position: absolute;
+    height: 5.61%;
+    width: 10.43%;
+    top: 5.5%;
+    right: 44.53%;
+    bottom: 88.89%;
+    left: 45.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.user-duotone-icon2 {
+    position: absolute;
+    height: 5.61%;
+    width: 10.43%;
+    top: 5.5%;
+    right: 41.22%;
+    bottom: 88.89%;
+    left: 48.35%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.vector-icon {
+    position: absolute;
+    height: 4.5%;
+    width: 10.18%;
+    top: 6.08%;
+    right: 16.03%;
+    bottom: 89.42%;
+    left: 73.79%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.image-2-icon {
+    position: absolute;
+    height: 17.54%;
+    width: 40.2%;
+    top: 22.11%;
+    right: 30.03%;
+    bottom: 60.35%;
+    left: 29.77%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.noise-texture {
+    position: absolute;
+    height: 70.76%;
+    width: 93.13%;
+    top: 29.24%;
+    right: 3.05%;
+    bottom: 0%;
+    left: 3.82%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    z-index: 1;
+}
+.component-12-child {
+    position: absolute;
+    height: 58%;
+    width: 100%;
+    top: 16%;
+    right: 0%;
+    bottom: 26%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #9b1111;
+}
+.component-12-item {
+    position: absolute;
+    height: 100%;
+    width: 29.67%;
+    top: 0%;
+    right: 26.71%;
+    bottom: 0%;
+    left: 43.62%;
+    overflow: hidden;
+}
+.nombre-de-lista {
+    position: absolute;
+    height: 42%;
+    width: 63.2%;
+    top: 24%;
+    left: 18.4%;
+    display: flex;
+    align-items: center;
+}
+.component-12 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 80.31%;
+    left: 0%;
+}
+.component-14 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 40.94%;
+    right: 0%;
+    bottom: 39.37%;
+    left: 0%;
+}
+.component-15 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 60.63%;
+    right: 0%;
+    bottom: 19.69%;
+    left: 0%;
+}
+.component-16 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 80.31%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.component-13 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 21.26%;
+    right: 0%;
+    bottom: 59.06%;
+    left: 0%;
+}
+.component-24 {
+    position: absolute;
+    height: 59.42%;
+    width: 85.75%;
+    top: 35.32%;
+    right: 8.14%;
+    bottom: 5.26%;
+    left: 6.11%;
+    font-size: 24px;
+    color: #fff;
+    font-family: Montserrat;
+}
+.component-30 {
+    position: absolute;
+    top: 105px;
+    left: 16px;
+    width: 393px;
+    height: 855px;
+}
+.texture-icon1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    z-index: 1;
+
+}
+.volver {
+    position: absolute;
+    top: 4.36%;
+    left: 4.68%;
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.tareas-pendientes {
+    position: absolute;
+    height: 55.38%;
+    top: 21.54%;
+    left: calc(50% - 103.5px);
+    display: inline-block;
+    width: 228px;
+}
+.component-31 {
+    position: absolute;
+    height: 8.09%;
+    width: 25.88%;
+    top: 4.98%;
+    right: 38.15%;
+    bottom: 86.92%;
+    left: 35.97%;
+    border-radius: 10px;
+    background: linear-gradient(#9b1111, #9b1111), #9b1111;
+    font-size: 25px;
+    color: #fff;
+}
+.component-34-child {
+    position: absolute;
+    height: 6.97%;
+    width: 5.82%;
+    top: 6.72%;
+    right: 90.23%;
+    bottom: 86.3%;
+    left: 3.95%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.sign-out-circle-icon {
+    position: absolute;
+    height: 3.99%;
+    width: 3.43%;
+    top: 7.97%;
+    right: 91.27%;
+    bottom: 88.04%;
+    left: 5.3%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.item-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 4px;
+    background-color: #eee;
+}
+.todo-item-child {
+    position: relative;
+    width: 0px;
+    height: 0px;
+}
+.sep-2022 {
+    position: absolute;
+    top: 15px;
+    left: 62px;
+}
+.example-task-tod {
+    position: absolute;
+    top: 16px;
+    right: 43px;
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.9);
+}
+.todo-item {
+    position: absolute;
+    height: 111.11%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: -11.11%;
+    left: 0%;
+    border-radius: 4px;
+}
+.property-1default {
+    position: absolute;
+    height: 14.06%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 85.94%;
+    left: 0%;
+}
+.property-1variant2 {
+    position: absolute;
+    height: 14.06%;
+    width: 100%;
+    top: 17.19%;
+    right: 0%;
+    bottom: 68.75%;
+    left: 0%;
+}
+.property-1variant3 {
+    position: absolute;
+    height: 14.06%;
+    width: 100%;
+    top: 34.38%;
+    right: 0%;
+    bottom: 51.56%;
+    left: 0%;
+}
+.property-1variant4 {
+    position: absolute;
+    height: 14.06%;
+    width: 100%;
+    top: 51.56%;
+    right: 0%;
+    bottom: 34.38%;
+    left: 0%;
+}
+.property-1variant5 {
+    position: absolute;
+    height: 14.06%;
+    width: 100%;
+    top: 68.75%;
+    right: 0%;
+    bottom: 17.19%;
+    left: 0%;
+}
+.property-1variant6 {
+    position: absolute;
+    height: 14.06%;
+    width: 100%;
+    top: 85.94%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.component-32 {
+    position: absolute;
+    height: 39.85%;
+    width: 35.86%;
+    top: 27.15%;
+    right: 57.9%;
+    bottom: 33%;
+    left: 6.24%;
+    font-family: Montserrat;
+}
+.component-33 {
+    position: absolute;
+    height: 39.85%;
+    width: 35.86%;
+    top: 27.15%;
+    right: 6.03%;
+    bottom: 33%;
+    left: 58.11%;
+    font-family: Montserrat;
+}
+.vector-icon1 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 28.89%;
+    right: 90.02%;
+    bottom: 68.27%;
+    left: 7.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon2 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 28.89%;
+    right: 38.15%;
+    bottom: 68.27%;
+    left: 59.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon3 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 35.74%;
+    right: 90.02%;
+    bottom: 61.42%;
+    left: 7.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon4 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 35.74%;
+    right: 38.15%;
+    bottom: 61.42%;
+    left: 59.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon5 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 42.34%;
+    right: 90.02%;
+    bottom: 54.82%;
+    left: 7.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon6 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 42.34%;
+    right: 38.15%;
+    bottom: 54.82%;
+    left: 59.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon7 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 49.44%;
+    right: 90.02%;
+    bottom: 47.72%;
+    left: 7.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon8 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 49.44%;
+    right: 38.15%;
+    bottom: 47.72%;
+    left: 59.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon9 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 56.29%;
+    right: 90.02%;
+    bottom: 40.87%;
+    left: 7.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon10 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 56.29%;
+    right: 38.15%;
+    bottom: 40.87%;
+    left: 59.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon11 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 63.26%;
+    right: 90.02%;
+    bottom: 33.9%;
+    left: 7.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-icon12 {
+    position: absolute;
+    height: 2.84%;
+    width: 2.39%;
+    top: 63.26%;
+    right: 38.15%;
+    bottom: 33.9%;
+    left: 59.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.component-34-item {
+    position: absolute;
+    height: 8.72%;
+    width: 7.28%;
+    top: 75.59%;
+    right: 47.71%;
+    bottom: 15.69%;
+    left: 45.01%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0);
+}
+.title {
+    position: absolute;
+    top: 4px;
+    left: 13px;
+}
+.form {
+    position: absolute;
+    top: -0.5px;
+    left: -0.5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(217, 217, 217, 0.85);
+    box-sizing: border-box;
+    width: 321px;
+    height: 51px;
+}
+.enter-task-title {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    text-shadow: 1px 0 0 rgba(217, 217, 217, 0.85), 0 1px 0 rgba(217, 217, 217, 0.85), -1px 0 0 rgba(217, 217, 217, 0.85), 0 -1px 0 rgba(217, 217, 217, 0.85);
+}
+.form-parent {
+    position: absolute;
+    top: 37px;
+    left: 12px;
+    width: 320px;
+    height: 50px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Montserrat;
+}
+.form-input {
+    position: absolute;
+    height: 11.21%;
+    width: 35.86%;
+    top: 84.31%;
+    right: 33.99%;
+    bottom: 4.48%;
+    left: 30.15%;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    color: #49a0c5;
+}
+.component-34 {
+    position: absolute;
+    top: 128px;
+    left: 440px;
+    width: 962px;
+    height: 803px;
+    color: rgba(34, 34, 34, 0.7);
+    font-family: Sen;
+}
+.ventana-principal {
+    width: 1440px;
+    position: relative;
+    background-color: #cd4640;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Roboto;
+}
+
+
+
+
+.todo-checkbox {
+    position: relative; /* Cambiado a relative para evitar problemas con el posicionamiento absoluto */
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 10; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+
+
+
+
+/* Estilo del campo de entrada */
+.task-input {
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    border: 1px solid #ccc; /* Color y grosor del borde */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+    font-family: 'Roboto', sans-serif; /* Fuente del texto */
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+
+/* Estilo del texto placeholder */
+.task-input::placeholder {
+    color: #888; /* Color del texto del placeholder */
+    font-style: italic; /* Estilo del texto del placeholder */
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+
+/* Asegúrate de que el contenedor no tenga estilos que interfieran */
+.form-input {
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    margin: 10px 0; /* Espaciado */
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+
+/* Opcional: Asegúrate de que el contenedor padre no esté ocultando el campo de entrada */
+.form-parent {
+    position: relative; /* Ajusta la posición si es necesario */
+    
+}

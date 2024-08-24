@@ -1,0 +1,616 @@
+.component-12 {
+    position: absolute;
+    top: 95px;
+    left: 56px;
+    width: 304px;
+    height: 77px;
+}
+.component-12-child {
+    position: absolute;
+    height: 58%;
+    width: 100%;
+    top: 16%;
+    right: 0%;
+    bottom: 26%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #9b1111;
+}
+.component-12-item {
+    position: absolute;
+    height: 100%;
+    width: 29.67%;
+    top: 0%;
+    right: 26.71%;
+    bottom: 0%;
+    left: 43.62%;
+    overflow: hidden;
+}
+.nombre-de-lista {
+    position: absolute;
+    height: 42%;
+    width: 63.2%;
+    top: 24%;
+    left: 18.4%;
+    display: flex;
+    align-items: center;
+}
+.component-121 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 80.31%;
+    left: 0%;
+}
+.component-14 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 40.94%;
+    right: 0%;
+    bottom: 39.37%;
+    left: 0%;
+}
+.component-15 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 60.63%;
+    right: 0%;
+    bottom: 19.69%;
+    left: 0%;
+}
+.component-16 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 80.31%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.component-13 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 21.26%;
+    right: 0%;
+    bottom: 59.06%;
+    left: 0%;
+}
+.component-30 {
+    position: absolute;
+    height: 59.14%;
+    width: 85.75%;
+    top: 34.81%;
+    right: 5.6%;
+    bottom: 6.05%;
+    left: 8.65%;
+}
+.texture-icon {
+    position: absolute;
+    height: 17.58%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 82.42%;
+    left: 0%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    z-index: 1; /* Asegura que esté por encima de la textura */
+}
+.noise-texture {
+    position: absolute;
+    height: 70.43%;
+    width: 93.13%;
+    top: 29.57%;
+    right: 3.31%;
+    bottom: 0%;
+    left: 3.56%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    z-index: 1; /* Asegura que esté por encima de la textura */
+}
+.image-3-icon {
+    position: absolute;
+    height: 17.23%;
+    width: 36.64%;
+    top: 21.89%;
+    right: 31.55%;
+    bottom: 60.88%;
+    left: 31.81%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.component-31-child {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 77.3%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.component-31-item {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 37.5%;
+    bottom: 0%;
+    left: 39.8%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.component-31-inner {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 0%;
+    bottom: 0%;
+    left: 77.3%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.listas {
+    position: absolute;
+    top: 0%;
+    left: 4.28%;
+}
+.config {
+    position: absolute;
+    top: 0%;
+    left: 80.26%;
+}
+.grupos {
+    position: absolute;
+    top: 0%;
+    left: 42.76%;
+}
+.component-31 {
+    position: absolute;
+    height: 8.96%;
+    width: 77.35%;
+    top: 3.03%;
+    right: 11.2%;
+    bottom: 88.01%;
+    left: 11.45%;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Roboto;
+}
+.vector-icon {
+    position: absolute;
+    height: 4.48%;
+    width: 10.18%;
+    top: 6.4%;
+    right: 15.01%;
+    bottom: 89.12%;
+    left: 74.81%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.user-duotone-icon {
+    position: absolute;
+    height: 5.59%;
+    width: 10.43%;
+    top: 5.82%;
+    right: 46.82%;
+    bottom: 88.59%;
+    left: 42.75%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.user-duotone-icon1 {
+    position: absolute;
+    height: 5.59%;
+    width: 10.43%;
+    top: 5.82%;
+    right: 43.51%;
+    bottom: 88.59%;
+    left: 46.06%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.user-duotone-icon2 {
+    position: absolute;
+    height: 5.59%;
+    width: 10.43%;
+    top: 5.82%;
+    right: 40.2%;
+    bottom: 88.59%;
+    left: 49.36%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.notebook-fill-icon {
+    position: absolute;
+    height: 6.17%;
+    width: 12.47%;
+    top: 5.24%;
+    right: 74.05%;
+    bottom: 88.59%;
+    left: 13.49%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.component-40 {
+    position: absolute;
+    top: 95px;
+    left: 11px;
+    width: 393px;
+    height: 859px;
+}
+.component-23-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #9b1111;
+}
+.nueva-tarea1 {
+    position: absolute;
+    top: 23.26%;
+    left: 14.53%;
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.component-23 {
+    position: absolute;
+    height: 5.35%;
+    width: 17.88%;
+    top: 10.96%;
+    right: 40.85%;
+    bottom: 83.69%;
+    left: 41.27%;
+    font-size: 20px;
+    color: #fff;
+    font-family: Sen;
+}
+.form {
+    position: absolute;
+    height: 102%;
+    width: 100.31%;
+    top: -1%;
+    right: -0.16%;
+    bottom: -1%;
+    left: -0.16%;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(217, 217, 217, 0.85);
+    box-sizing: border-box;
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.introduzca-tarea {
+    position: absolute;
+    top: 32%;
+    left: 4.69%;
+    text-shadow: 1px 0 0 rgba(217, 217, 217, 0.85), 0 1px 0 rgba(217, 217, 217, 0.85), -1px 0 0 rgba(217, 217, 217, 0.85), 0 -1px 0 rgba(217, 217, 217, 0.85);
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.form-parent {
+    position: absolute;
+    height: 59.52%;
+    width: 100%;
+    top: 40.48%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.example-task-tod {
+    position: absolute;
+    top: 0%;
+    left: 4.06%;
+    font-size: 16px;
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.9);
+}
+.component-24 {
+    position: absolute;
+    height: 10.46%;
+    width: 33.26%;
+    top: 22.79%;
+    right: 34.2%;
+    bottom: 66.75%;
+    left: 32.54%;
+}
+.component-25-child {
+    position: absolute;
+    height: 32.87%;
+    width: 16.14%;
+    top: 25.17%;
+    right: 0%;
+    bottom: 41.96%;
+    left: 83.86%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.form1 {
+    position: absolute;
+    height: 102%;
+    width: 100.38%;
+    top: -1%;
+    right: -0.19%;
+    bottom: -1%;
+    left: -0.19%;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(217, 217, 217, 0.85);
+    box-sizing: border-box;
+    z-index: 10; /* Asegura que esté por encima de la textura */
+
+}
+.component-4 {
+    position: absolute;
+    top: 0px;
+    left: -11px;
+    width: 264px;
+    height: 84px;
+}
+.component-4-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.component-25-inner {
+    position: absolute;
+    height: 58.74%;
+    width: 83.54%;
+    top: 0%;
+    right: 16.14%;
+    bottom: 41.26%;
+    left: 0.32%;
+}
+.component-25-item {
+    position: absolute;
+    height: 32.87%;
+    width: 16.14%;
+    top: 66.43%;
+    right: 0.32%;
+    bottom: 0.7%;
+    left: 83.54%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.group-div {
+    position: absolute;
+    height: 58.74%;
+    width: 83.54%;
+    top: 41.26%;
+    right: 16.46%;
+    bottom: 0%;
+    left: 0%;
+}
+.component-25 {
+    position: absolute;
+    height: 17.81%;
+    width: 32.85%;
+    top: 36.74%;
+    right: 33.37%;
+    bottom: 45.45%;
+    left: 33.78%;
+}
+.date-range-fill-icon {
+    position: absolute;
+    height: 4.61%;
+    width: 3.95%;
+    top: 41.72%;
+    right: 34.1%;
+    bottom: 53.67%;
+    left: 61.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.alarmclock-icon {
+    position: absolute;
+    height: 5.11%;
+    width: 4.16%;
+    top: 48.94%;
+    right: 34.3%;
+    bottom: 45.95%;
+    left: 61.54%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.component-261 {
+    position: absolute;
+    height: 10.46%;
+    width: 33.26%;
+    top: 66.25%;
+    right: 34.3%;
+    bottom: 23.29%;
+    left: 32.43%;
+}
+.texture-icon1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    z-index: 1; /* Asegura que esté por encima de la textura */
+}
+.component-41-child {
+    position: absolute;
+    height: 74.67%;
+    width: 100%;
+    top: 25.33%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.volver {
+    position: absolute;
+    top: 0%;
+    left: 12.5%;
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.sign-out-circle-icon {
+    position: absolute;
+    height: 42.67%;
+    width: 58.93%;
+    top: 41.33%;
+    right: 21.43%;
+    bottom: 16%;
+    left: 19.64%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.component-411 {
+    position: absolute;
+    height: 9.34%;
+    width: 5.82%;
+    top: 4.23%;
+    right: 92.62%;
+    bottom: 86.43%;
+    left: 1.56%;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Roboto;
+}
+.component-42 {
+    position: absolute;
+    top: 116px;
+    left: 436px;
+    width: 962px;
+    height: 803px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+.nueva-tarea {
+    position: absolute;
+    height: 1024px;
+    width: 1440px;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #cd4640;
+    overflow: hidden;
+}
+.component-26 {
+    width: 100%;
+    position: relative;
+    height: 1024px;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+
+
+
+
+
+.input-group {
+    position: relative; /* Asegura que los elementos hijos se posicionen relativamente dentro de este contenedor */
+    margin-bottom: 15px;
+    z-index: 10; /* Asegura que esté por encima de la textura */
+
+}
+
+.introduzca-tarea {
+    position: absolute; /* Posiciona el label sobre el contenedor del input */
+    top: -20px; /* Ajusta este valor según sea necesario */
+    left: 0;
+    font-weight: bold;
+    z-index: 10; /* Asegura que esté por encima de la textura */
+
+}
+
+.introduzca-tarea-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    z-index: 10; /* Asegura que esté por encima de la textura */
+
+}
+
+.date-range-fill-icon {
+    position: absolute;
+    height: 4.61%;
+    width: 3.95%;
+    top: 41.72%; /* Ajusta según sea necesario para que esté alineado con el campo de fecha */
+    right: 34.1%;
+    bottom: 53.67%;
+    left: 61.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 10; /* Asegura que esté por encima de la textura */
+
+}
+
+.alarmclock-icon {
+    position: absolute;
+    height: 5.11%;
+    width: 4.16%;
+    top: 48.94%; /* Ajusta según sea necesario para que esté alineado con el campo de hora */
+    right: 34.3%;
+    bottom: 45.95%;
+    left: 61.54%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 10; /* Asegura que esté por encima de la textura */
+
+}
+
+
+
+
