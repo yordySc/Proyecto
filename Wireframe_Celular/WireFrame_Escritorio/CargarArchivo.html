@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    
+    <link rel="stylesheet"  href="/CSS/CargarArchivo.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sen:wght@400&display=swap" />
+</head>
+<body>
+    
+    <div class="subir-archivo">
+        <img class="subir-archivo-child" alt="" src="">
+        
+        <div class="component-43">
+            <div class="component-18">
+                <div class="component-12">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+                <div class="component-14">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+                <div class="component-15">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+                <div class="component-16">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+                <div class="component-13">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+            </div>
+            <img class="texture-icon" alt="" src="/images/texture.png">
+            <img class="noise-texture" alt="" src="/images/texture.png">
+            <img class="image-4-icon" alt="" src="/images/logo.png">
+            
+            <div class="component-19">
+                <div class="component-19-child"></div>
+                <div class="component-19-item"></div>
+                <div class="component-19-inner"></div>
+                <div class="listas">Listas</div>
+                <div class="config">Config.</div>
+                <div class="grupos">Grupos</div>
+            </div>
+            <img class="vector-icon" alt="" src="/images/iconConfig.png">
+            <img class="user-duotone-icon1" alt="" src="/images/iconGroups.png">
+            <a href="ListaTareas.html">
+                <img class="notebook-fill-icon" alt="" src="/images/iconFile.png">
+            </a>        
+        </div>
+        
+        <img class="texture-icon1" alt="" src="/images/texture.png">
+        
+        <div class="component-46">
+            <img class="component-46-child" alt="" src="/images/Rectangle.png">
+            <div class="component-46-item"></div>
+            <div class="archivo">Archivo</div>  
+        </div>
+        
+        <div class="volver"><a href="TareasPendientes.html">Volver</a></div>
+        <div class="subir-archivo-item"></div>
+        
+        <div class="escoge-un-archivo">
+            Escoge un archivo
+            <input type="file" id="fileInput" class="file-input" />
+        </div>
+        
+        <img class="file-dock-fill-icon" alt="" src="/images/iconFile.png">
+        
+        <div class="nombre">Nombre</div>
+        <input type="text" id="fileName" class="nombre-con-el" placeholder="Nombre con el que va a subir el archivo" />
+        
+        <div class="categora">Categoría</div>
+        <div class="form-parent">
+            <select id="categorySelect" class="form">
+                <option value="" disabled selected>Selecciona una Categoría</option>
+                <option value="categoria1">Categoría 1</option>
+                <option value="categoria2">Categoría 2</option>
+                <option value="categoria3">Categoría 3</option>
+            </select>
+        </div>
+        
+        <div class="rectangle-div"></div>
+        <img class="polygon-icon" alt="" src="/images/iconWatchList.png">
+        <img class="rectangle-icon" alt="" src="/images/Rectangle.png">
+        
+        <div class="cargar">
+            <button onclick="uploadFile()">Cargar</button>
+        </div>
+        
+        <div class="component-46">
+            <img class="component-46-child" alt="" src="/images/Rectangle.png">
+            <div class="component-46-item"></div>
+            <div class="archivo">Archivo</div>
+        </div>
+        
+        <div class="escoge-un-archivo">
+            Escoge un archivo
+            <input type="file" id="fileInput2" class="file-input" />
+        </div>
+        
+        <img class="file-dock-fill-icon" alt="" src="/images/iconFolder.png">
+        
+        <div class="nombre">Nombre</div>
+        <input type="text" id="fileName2" class="nombre-con-el" placeholder="Nombre con el que va a subir el archivo" />
+        
+        <div class="categora">Categoría</div>
+        <div class="form-parent">
+            <select id="categorySelect2" class="form">
+                <option value="" disabled selected>Selecciona una Categoría</option>
+                <option value="categoria1">Categoría 1</option>
+                <option value="categoria2">Categoría 2</option>
+                <option value="categoria3">Categoría 3</option>
+            </select>
+        </div>
+        
+        <div class="rectangle-div"></div>
+        <img class="polygon-icon" alt="" src="/images/iconWatchList.png">
+        <img class="rectangle-icon" alt="" src="/images/Rectangle 1551.png">
+        
+        <div class="cargar">
+            <button onclick="uploadFile()">Cargar</button>
+        </div>
+        
+        <div class="component-47">
+            <img class="component-47-child" alt="" src="/images/Rectangle 1.png">
+            <div class="cargar-archivo">Cargar Archivo</div>
+        </div>
+        <a href="ListaTareas.html">
+            <img class="sign-out-circle-icon" alt="" src="/images/iconBack.png">
+        </a>
+        
+    </div>
+    
+    <script>
+        // Función para manejar la carga de archivos
+        function uploadFile() {
+            const fileInput = document.getElementById('fileInput');
+            const fileName = document.getElementById('fileName').value;
+            const categorySelect = document.getElementById('categorySelect').value;
+
+            if (fileInput.files.length === 0) {
+                alert('Por favor, escoge un archivo.');
+                return;
+            }
+            
+            if (!fileName) {
+                alert('Por favor, ingresa un nombre para el archivo.');
+                return;
+            }
+            
+            if (!categorySelect) {
+                alert('Por favor, selecciona una categoría.');
+                return;
+            }
+
+            // Aquí puedes manejar la lógica para subir el archivo, enviar datos al servidor, etc.
+            alert(`Archivo: ${fileInput.files[0].name}\nNombre asignado: ${fileName}\nCategoría: ${categorySelect}`);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* Ajusta el tamaño y la posición del contenedor principal */
+.create {
+  width: 1440px; /* Ancho del escritorio */
+  height: 1024px; /* Altura del escritorio */
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+  background-color: #cd4640;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: #808080;
+  font-family: Outfit;
+}
+
+/* Ajusta el tamaño y la posición del logo */
+.image-1-icon {
+  width: 864px;
+  height: 586px;
+  object-fit: cover;
+  display: block; /* Asegura que la imagen sea un bloque */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+/* Ajusta la textura */
+.texture {
+  position: absolute;
+  top: 111px;
+  left: calc(50% - 481px);
+  border-radius: 50px;
+  width: 962px;
+  height: 803px;
+  background-image: url('/images/texture.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0.35;
+  mix-blend-mode: overlay;
+}
+
+/* Ajusta la posición y el tamaño de los derechos reservados */
+.frame1 {
+  position: absolute;
+  bottom: 20px; /* Fijo en la parte inferior */
+  left: calc(50% - 298px); /* Centra horizontalmente */
+  width: 596px;
+  text-align: center; /* Centra el texto */
+}
+
+/* Ajusta el estilo del contenedor de la lista de tareas */
+.frame2 {
+  position: absolute;
+  top: calc(50% + 102px); /* Ajusta la posición debajo de la imagen */
+  left: calc(50% - 244px);
+  width: 487px;
+  height: 216px;
+  text-align: left;
+  font-size: 90px;
+  color: #9b1111;
+  font-family: Monofett;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+/* Ajusta el tamaño del texto */
+.to-do-list-container {
+  margin: 0;
+  width: 487px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+/* Ajusta el estilo del texto de la lista */
+.to-do-list, .music {
+  margin: 0;
+}

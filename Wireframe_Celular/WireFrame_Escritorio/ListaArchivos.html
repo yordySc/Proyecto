@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="/CSS/ListaArchivos.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400&display=swap" />
+</head>
+<body>
+
+    <div class="subir-archivo">
+        <div class="component-17">
+            <div class="component-12"></div>
+            <div class="component-14"></div>
+            <div class="component-15"></div>
+            <div class="component-16"></div>
+            <div class="component-13"></div>
+        </div>
+        <div class="component-121"></div>
+        <div class="notebook-fill"></div>
+        <div class="component-53">
+            <div class="component-19">
+                <div class="component-12">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+                <div class="component-14">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+                <div class="component-15">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+                <div class="component-16">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+                <div class="component-13">
+                    <div class="component-12-child"></div>
+                    <div class="component-12-item"></div>
+                    <div class="nombre-de-lista">Nombre de Lista</div>
+                </div>
+            </div>
+            <img class="texture-icon" alt="" src="/images/texture.png">
+            <img class="noise-texture" alt="" src="/images/texture.png">
+            <img class="image-4-icon" alt="" src="/images/logo.png">
+            <div class="component-20">
+                <div class="component-20-child"></div>
+                <div class="component-20-item"></div>
+                <div class="component-20-inner"></div>
+                <div class="listas">Listas</div>
+                <div class="config">Config.</div>
+                <div class="grupos">Grupos</div>
+            </div>
+            <img class="vector-icon" alt="" src="/images/iconConfig.png">
+            <img class="user-duotone-icon1" alt="" src="/images/iconGroups.png">
+            <a href="ListaTareas.html">
+                <img class="notebook-fill-icon" alt="" src="/images/iconFile.png">
+            </a>
+        </div>
+        <div class="component-55">
+            <div class="component-55-child"></div>
+            <img class="component-55-item" alt="" src="Vector 9.svg">
+            <img class="texture-icon1" alt="" src="/images/texture.png">
+            <div class="component-54">
+                <img class="component-54-child" alt="" src="/images/Rectangle 1.png">
+                <div class="cargar-archivo">Lista de Archivos</div>
+            </div>
+            <div class="component-55-inner"></div>
+            <div class="todos-los-archivos">Todos los Archivos</div>
+            <div class="cateforia">Categoría</div>
+            <div class="tamao">Tamaño</div>
+            <div class="fecha">Fecha</div>
+
+            <!-- Lista de Archivos -->
+            <div id="file-list">
+                <div class="folder-1-parent" data-id="1">
+                    <img class="folder-1-icon" alt="" src="/images/iconFolder.png">
+                    <div class="nombre-archivo">Banda(TOF)</div>
+                    <div class="mb">25 Mb</div>
+                    <div class="div">04/12/2022</div>
+                </div>
+                <div class="folder-1-group" data-id="2">
+                    <img class="folder-1-icon" alt="" src="/images/iconFolder.png">
+                    <div class="nombre-archivo">BandaClasica</div>
+                    <div class="mb1">14.6 Mb</div>
+                    <div class="div">04/12/2022</div>
+                </div>
+                <div class="folder-1-container" data-id="3">
+                    <img class="folder-1-icon" alt="" src="/images/iconFolder.png">
+                    <div class="nombre-archivo">Comparsa</div>
+                    <div class="mb2">40.1 Mb</div>
+                    <div class="div">04/12/2022</div>
+                </div>
+            </div>
+
+            <!-- Botones Editar y Eliminar -->
+            <div class="pencil-1-parent" onclick="editarArchivo()">
+                <img class="pencil-1-icon" alt="" src="/images/pencil.png">
+                <div class="editar">Editar</div>
+            </div>
+            <img class="trash-2-icon" alt="" src="/images/trash.png" onclick="eliminarArchivo()">
+            <div class="eliminar">Eliminar</div>
+            <a href="TareasPendientes.html">
+                <img class="sign-out-circle-icon" alt="" src="/images/iconBack.png">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function eliminarArchivo() {
+            const archivo = prompt("Ingrese el nombre del archivo a eliminar (Banda(TOF), BandaClasica, Comparsa):");
+            if (archivo) {
+                const listaArchivos = document.querySelectorAll('#file-list > div');
+                listaArchivos.forEach(element => {
+                    const nombreArchivo = element.querySelector('.nombre-archivo').textContent;
+                    if (nombreArchivo.toLowerCase() === archivo.toLowerCase()) {
+                        element.remove();
+                    }
+                });
+            }
+        }
+
+        function editarArchivo() {
+            const archivo = prompt("Ingrese el nombre del archivo a editar (Banda(TOF), BandaClasica, Comparsa):");
+            if (archivo) {
+                const listaArchivos = document.querySelectorAll('#file-list > div');
+                listaArchivos.forEach(element => {
+                    const nombreArchivo = element.querySelector('.nombre-archivo').textContent;
+                    if (nombreArchivo.toLowerCase() === archivo.toLowerCase()) {
+                        const nuevoNombre = prompt("Ingrese el nuevo nombre:");
+                        if (nuevoNombre) {
+                            element.querySelector('.nombre-archivo').textContent = nuevoNombre;
+                        }
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

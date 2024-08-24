@@ -1,0 +1,615 @@
+.component-12 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 80.31%;
+    left: 0%;
+}
+.component-14 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 40.94%;
+    right: 0%;
+    bottom: 39.37%;
+    left: 0%;
+}
+.component-15 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 60.63%;
+    right: 0%;
+    bottom: 19.69%;
+    left: 0%;
+}
+.component-16 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 80.31%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.component-13 {
+    position: absolute;
+    height: 19.69%;
+    width: 100%;
+    top: 21.26%;
+    right: 0%;
+    bottom: 59.06%;
+    left: 0%;
+}
+.component-17 {
+    position: absolute;
+    top: 392px;
+    left: 41px;
+    width: 337px;
+    height: 508px;
+}
+.component-121 {
+    position: absolute;
+    top: 101px;
+    left: 58px;
+    width: 304px;
+    height: 77px;
+}
+.notebook-fill {
+    position: absolute;
+    top: 120px;
+    left: 66px;
+    width: 49px;
+    height: 53px;
+}
+.component-12-child {
+    position: absolute;
+    height: 58%;
+    width: 100%;
+    top: 16%;
+    right: 0%;
+    bottom: 26%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #9b1111;
+}
+.component-12-item {
+    position: absolute;
+    height: 100%;
+    width: 29.67%;
+    top: 0%;
+    right: 26.71%;
+    bottom: 0%;
+    left: 43.62%;
+    overflow: hidden;
+}
+.nombre-de-lista {
+    position: absolute;
+    height: 42%;
+    width: 63.2%;
+    top: 24%;
+    left: 18.4%;
+    display: flex;
+    align-items: center;
+}
+.component-19 {
+    position: absolute;
+    height: 59.21%;
+    width: 85.75%;
+    top: 36.71%;
+    right: 7.12%;
+    bottom: 4.08%;
+    left: 7.12%;
+}
+.texture-icon {
+    position: absolute;
+    height: 17.6%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 82.4%;
+    left: 0%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+}
+.noise-texture {
+    position: absolute;
+    height: 70.51%;
+    width: 93.13%;
+    top: 29.49%;
+    right: 4.83%;
+    bottom: 0%;
+    left: 2.04%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+}
+.image-4-icon {
+    position: absolute;
+    height: 17.25%;
+    width: 36.64%;
+    top: 22.14%;
+    right: 32.32%;
+    bottom: 60.61%;
+    left: 31.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.component-20-child {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 77.3%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.component-20-item {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 37.5%;
+    bottom: 0%;
+    left: 39.8%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.component-20-inner {
+    position: absolute;
+    height: 75.32%;
+    width: 22.7%;
+    top: 24.68%;
+    right: 0%;
+    bottom: 0%;
+    left: 77.3%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.listas {
+    position: absolute;
+    top: 0%;
+    left: 4.28%;
+}
+.config {
+    position: absolute;
+    top: 0%;
+    left: 80.26%;
+}
+.grupos {
+    position: absolute;
+    top: 0%;
+    left: 42.76%;
+}
+.component-20 {
+    position: absolute;
+    height: 8.97%;
+    width: 77.35%;
+    top: 2.8%;
+    right: 11.2%;
+    bottom: 88.23%;
+    left: 11.45%;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Roboto;
+}
+.vector-icon {
+    position: absolute;
+    height: 4.49%;
+    width: 10.18%;
+    top: 6.18%;
+    right: 15.01%;
+    bottom: 89.34%;
+    left: 74.81%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.user-duotone-icon {
+    position: absolute;
+    height: 5.59%;
+    width: 10.43%;
+    top: 5.59%;
+    right: 46.82%;
+    bottom: 88.81%;
+    left: 42.75%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.user-duotone-icon1 {
+    position: absolute;
+    height: 5.59%;
+    width: 10.43%;
+    top: 5.59%;
+    right: 43.51%;
+    bottom: 88.81%;
+    left: 46.06%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.user-duotone-icon2 {
+    position: absolute;
+    height: 5.59%;
+    width: 10.43%;
+    top: 5.59%;
+    right: 40.2%;
+    bottom: 88.81%;
+    left: 49.36%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.notebook-fill-icon {
+    position: absolute;
+    height: 6.18%;
+    width: 12.47%;
+    top: 5.01%;
+    right: 74.05%;
+    bottom: 88.81%;
+    left: 13.49%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.component-53 {
+    position: absolute;
+    top: 90px;
+    left: 27px;
+    width: 393px;
+    height: 858px;
+}
+.component-55-child {
+    position: absolute;
+    height: 2.9%;
+    width: 2.49%;
+    top: 8.14%;
+    right: 90.07%;
+    bottom: 88.96%;
+    left: 7.43%;
+    border-radius: 50%;
+    border: 2px solid #e14949;
+    box-sizing: border-box;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.component-55-item {
+    position: absolute;
+    height: 1.66%;
+    width: 1.29%;
+    top: 8.76%;
+    right: 93.75%;
+    bottom: 89.58%;
+    left: 4.96%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.texture-icon1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+}
+.volver {
+    position: absolute;
+    top: 11%;
+    left: 4.16%;
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.component-54-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.cargar-archivo {
+    position: absolute;
+    height: 76.79%;
+    width: 61.67%;
+    top: 10.71%;
+    left: 20.67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.component-54 {
+    position: absolute;
+    height: 6.97%;
+    width: 31.19%;
+    top: 6.1%;
+    right: 34.41%;
+    bottom: 86.92%;
+    left: 34.41%;
+    text-align: center;
+    font-size: 24px;
+    color: #f7f3f3;
+    font-family: Montserrat;
+}
+.component-55-inner {
+    position: absolute;
+    height: 7.22%;
+    width: 7.17%;
+    top: 6.48%;
+    right: 90.02%;
+    bottom: 86.3%;
+    left: 2.81%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.todos-los-archivos {
+    position: absolute;
+    top: 25.28%;
+    left: 7.8%;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Jost;
+}
+.cateforia {
+    position: absolute;
+    width: 17.57%;
+    top: 32.63%;
+    left: 8.84%;
+    font-size: 14px;
+    color: rgba(220, 197, 197, 0.54);
+    display: inline-block;
+}
+.tamao {
+    position: absolute;
+    width: 17.57%;
+    top: 32.63%;
+    left: 47.09%;
+    font-size: 14px;
+    color: rgba(220, 197, 197, 0.54);
+    display: inline-block;
+}
+.fecha {
+    position: absolute;
+    width: 14.86%;
+    top: 32.63%;
+    left: 80.87%;
+    font-size: 14px;
+    color: rgba(220, 197, 197, 0.54);
+    display: inline-block;
+}
+.folder-1-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.bandatof {
+    width: 323px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.mb {
+    width: 297px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.div {
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.folder-1-parent {
+    position: absolute;
+    height: 2.62%;
+    width: 88.67%;
+    top: 41.22%;
+    right: 3.33%;
+    bottom: 56.16%;
+    left: 8%;
+    background-color: rgba(220, 197, 197, 0.54);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #272727;
+}
+.bandaclasica {
+    width: 322px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.mb1 {
+    width: 298px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.folder-1-group {
+    position: absolute;
+    height: 2.62%;
+    width: 88.67%;
+    top: 46.82%;
+    right: 3.53%;
+    bottom: 50.56%;
+    left: 7.8%;
+    background-color: rgba(220, 197, 197, 0.54);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #272727;
+}
+.comparsa {
+    width: 320px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.mb2 {
+    width: 305px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.folder-1-container {
+    position: absolute;
+    height: 2.62%;
+    width: 88.67%;
+    top: 52.43%;
+    right: 3.53%;
+    bottom: 44.96%;
+    left: 7.8%;
+    background-color: rgba(220, 197, 197, 0.54);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #272727;
+}
+.rectangle-div {
+    position: absolute;
+    height: 6.97%;
+    width: 5.82%;
+    top: 68.37%;
+    right: 59.15%;
+    bottom: 24.66%;
+    left: 35.03%;
+    border-radius: 10px;
+    background-color: #ece3e3;
+}
+.component-55-child1 {
+    position: absolute;
+    height: 6.97%;
+    width: 5.82%;
+    top: 68.37%;
+    right: 42%;
+    bottom: 24.66%;
+    left: 52.18%;
+    border-radius: 10px;
+    background-color: #ece3e3;
+}
+.pencil-1-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.editar {
+    position: relative;
+}
+.pencil-1-parent {
+    position: absolute;
+    height: 6.85%;
+    width: 4.99%;
+    top: 68.87%;
+    right: 42.41%;
+    bottom: 24.28%;
+    left: 52.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-family: Jost;
+}
+.trash-2-icon {
+    position: absolute;
+    height: 2.99%;
+    width: 2.49%;
+    top: 69.49%;
+    right: 60.81%;
+    bottom: 27.52%;
+    left: 36.69%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.eliminar {
+    position: absolute;
+    height: 2.49%;
+    width: 5.72%;
+    top: 72.35%;
+    left: 35.14%;
+    font-family: Jost;
+    display: inline-block;
+}
+.sign-out-circle-icon {
+    position: absolute;
+    height: 3.99%;
+    width: 3.43%;
+    top: 7.6%;
+    right: 92.1%;
+    bottom: 88.42%;
+    left: 4.47%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer; /* Agrega un cursor para que sea obvio que es interactivo */
+    z-index: 10; /* Asegura que esté por encima de la textura */
+}
+.component-55 {
+    position: absolute;
+    top: 120px;
+    left: 436px;
+    width: 962px;
+    height: 803px;
+    font-size: 16px;
+    color: #000;
+    font-family: 'IBM Plex Sans';
+}
+.subir-archivo {
+    width: 1440px;
+    position: relative;
+    background-color: #cd4640;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
